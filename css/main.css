@@ -18,3 +18,30 @@ body, html {
 .nav-link {
     font-size: 1.1em !important;
 }
+
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-inner img {
+    height: 100%;
+}
+
+@media (min-width:1100px) {
+    .carousel-inner img {
+        width: 100%;
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    text-shadow: 1px 1px 10px #000;
+}
+
+@media (max-width:450px) {
+    .carousel-caption .display-2 {
+        font-size: 3em;
+    }
+}
