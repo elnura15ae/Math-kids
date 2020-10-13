@@ -89,9 +89,7 @@ body, html {
     background-blend-mode:multiply;
     background-color:lightyellow;
     background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+    background-attachment: fixed;
 }
 
 #gifBtn {
