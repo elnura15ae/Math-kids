@@ -101,23 +101,28 @@ body, html {
    max-height: 200px;
    margin-bottom: 20px;
 }
+@media (max-width:750px) {
+    .display-5
+    font-size: 1.3em;
+}
 
 .social a {
-    font-size: 4em;
+    font-size: 3em;
     padding: 20px;
 }
 .fa-facebook {color: #2163af;}
 .fa-instagram {color: #e54d26;}
 .fa-twitter {color: blue;}
-.fa-google-plus-g {color: brown;}
 
 .fa-facebook:hover,.fa-twitter:hover, 
-.fa-instagram:hover, .fa-youtube:hover,
-.fa-google-plus-g:hover {color: #ccc;}
+.fa-instagram:hover, .fa-youtube:hover
+ {color:#ccc;}
 
-footer {
-    background-color: #3f3f3f;
-    padding: 50px;
+#footer {
+    background-color: beige;
+    padding: 40px;
     border-top:4px solid silver;
-    color:white
+    color:grey;
+    font-size: 1em;
+    
 }
