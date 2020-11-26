@@ -1,0 +1,596 @@
+.t opRefs a:first-child:after {
+    content: " • "
+}
+
+@media (max-width: 1000px) {
+    .paramsClose .topRefs .addRefs {
+        display:none;
+        visibility: hidden
+    }
+}
+
+@media (max-width: 840px) {
+    .nav-link .capTab {
+        font-size:80%
+    }
+}
+
+@media (max-width: 730px) {
+    .nav-link .capTab {
+        display:none;
+        visibility: hidden
+    }
+}
+
+@media (max-width: 450px) {
+    .loginTop a {
+        font-size:80%
+    }
+
+    .fixed-top>a[target=_blank] {
+        font-size: 80%
+    }
+
+    .radioBlock {
+        margin-left: 0 !important
+    }
+
+    label {
+        display: inline
+    }
+
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .topParams {
+        border: 0 !important
+    }
+
+    .p-4 {
+        padding: 0 !important
+    }
+
+    #nav-tabContent>.tab-pane {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .topRefs .addRefs {
+        display: none;
+        visibility: hidden
+    }
+}
+
+@media (max-width: 350px) {
+    .loginTop a {
+        font-size:60%
+    }
+
+    .fixed-top>a[target=_blank] {
+        font-size: 60%
+    }
+}
+
+.centerBlock.startImg {
+    background: url(/images/train-img-1-100.jpg?3) no-repeat #fff;
+    background-position: center center;
+    background-size: 50%
+}
+
+@media (max-width: 768px) {
+    .centerBlock.startImg {
+        background-size:100% !important
+    }
+}
+
+.modal {
+    z-index: 2000001 !important;
+    p osition: absolute;
+    t op: 20% !important;
+    r ight: 100px;
+    b ottom: 0;
+    l eft: 0;
+    z -index: 10040;
+    o verflow: auto;
+    o verflow-y: auto
+}
+
+.loginTop i {
+    color: green
+}
+
+.btn-out {
+    color: red !important;
+    cursor: pointer
+}
+
+.nav-tabs .active {
+    background-color: #20b426 !important;
+    font-weight: 700;
+    color: #fff !important
+}
+
+.nav-tabs .nav-item i {
+    margin-right: 5px
+}
+
+#micBlock {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    font-size: 80%
+}
+
+#micBlock,#errorVoiceBlock {
+    border: 1px solid transparent;
+    padding: 3px 10px;
+    background-color: #fff
+}
+
+#micBlock i,#errorVoiceBlock i {
+    padding-right: 10px
+}
+
+#micBlock.micActive {
+    border: 1px solid red;
+    color: red
+}
+
+#errorVoiceBlock {
+    border: 1px solid red;
+    background-color: red;
+    color: #fff
+}
+
+.showAllResult2 {
+    font-size: 4vw;
+    width: 90%;
+    display: inline-block
+}
+
+.resultItem {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px
+}
+
+.resultItem .cap {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    background-color: #999;
+    color: #fff
+}
+
+.refSpeed {
+    float: right;
+    font-size: 70%;
+    padding: 1px 3px;
+    color: #30b32d;
+    border-radius: 5px;
+    border: 1px solid #30b32d;
+    cursor: pointer;
+    margin-left: 3px
+}
+
+.refSpeed:hover {
+    background-color: #30b32d;
+    color: #fff
+}
+
+.showAllResult>table {
+    margin: auto;
+    width: 80%;
+    font-size: 2vw
+}
+
+.showAllResult>table th {
+    text-align: right
+}
+
+.showAllResult>table td,.showAllResult>table th {
+    padding: 5px;
+    width: 50%
+}
+
+.showAllResult>table td[colspan=2] {
+    text-align: center
+}
+
+nav {
+    z-index: 2000000 !important
+}
+
+.mainTable {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-collapse: unset
+}
+
+.centerBlock {
+    text-align: center;
+    f ont-size: 15vw;
+    font-weight: 700;
+    height: 100%
+}
+
+.bigFont {
+    f ont-size: 45vw;
+    line-height: 50%
+}
+
+.pauseBlock {
+    border: 15px solid red
+}
+
+.enterReply h2 {
+    font-size: 7vw
+}
+
+.enterReply input {
+    font-size: 9vh;
+    text-align: center;
+    width: 90%
+}
+
+.enterReply button {
+    font-size: 9vh;
+    text-align: center
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.infoStatBlock {
+    b order: 1px green solid;
+    border-radius: 10px;
+    padding: 10px
+}
+
+#resultProgress {
+    width: 80%
+}
+
+#resultProgress::-webkit-progress-bar {
+    background-color: red !important
+}
+
+#resultProgress[value=100]::-webkit-progress-value {
+    background-color: green
+}
+
+.resultProc {
+    display: block
+}
+
+.showAllResult {
+    font-size: 2vw !important
+}
+
+#mainProgress {
+    position: absolute;
+    height: 3px;
+    z-index: 2000001
+}
+
+.navbar-toggler {
+    padding: 0 !important
+}
+
+.sidebar {
+    position: fixed;
+    top: 53px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #eee
+}
+
+main {
+    position: fixed !important;
+    top: 53px;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #eee;
+    padding-right: 0 !important;
+    padding-left: 0 !important
+}
+
+.wrapCenter {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle
+}
+
+.wrapCenter .centerBlock {
+    vertical-align: middle;
+    display: table-cell
+}
+
+.topParams {
+    p osition: fixed;
+    t op: 53px;
+    z-index: 100000;
+    background-color: #fff;
+    w idth: 90%;
+    l eft: 5%;
+    border: 2px solid green;
+    margin-top: 56px;
+    margin-bottom: 20px
+}
+
+.help {
+    font-size: 10pt;
+    line-height: 90%;
+    margin: 5px 0 10px;
+    display: inline-block
+}
+
+.topFields>div h5 {
+    text-align: center
+}
+
+#text-speed {
+    font-size: 15vw
+}
+
+.gaugePlace .irs-bar,.gaugePlace .irs-bar-edge {
+    background: 0 0
+}
+
+.pausePlace .irs-min {
+    display: none !important
+}
+
+.select2-container {
+    z-index: 500
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding: 0 5px 5px !important
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #30b32d;
+    color: #fff;
+    border: 1px solid #30b32d;
+    padding-left: 15px
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -14px
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: solid #ced4da 1px
+}
+
+.select2-results__option[aria-selected=true] {
+    display: none
+}
+
+.radioBlock {
+    margin-left: 30px
+}
+
+.tab-content>.tab-pane {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px
+}
+
+#loginErrors {
+    padding: 15px
+}
+
+.balance-minus {
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 10px
+}
+
+#games {
+    padding: 10px
+}
+
+#games>.row {
+    margin: 10px;
+    border: 1px solid green
+}
+
+#games .row:hover {
+    background-color: #90ee90;
+    cursor: pointer
+}
+
+#games .row>div {
+    padding: 10px
+}
+
+svg .stone:hover {
+    stroke: red;
+    stroke-width: 1
+}
+
+svg .stone.stateOn {
+    cursor: s-resize
+}
+
+svg .stone.stateOff {
+    cursor: n-resize
+}
+
+.fa-microphone-slash {
+    color: #ccc
+}
+
+.fa-microphone {
+    color: green
+}
+
+.btnLine {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 120%;
+    background-color: #ff981e;
+    color: #fff !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 5px
+}
+
+.btnLine:hover {
+    b ackground: #01adad;
+    background: #ffad4c
+}
+
+.btnLine i {
+    padding: 0 10px 0 0
+}
+
+@media (min-width: 970px) {
+    .klx-form-no-win label {
+        text-align:left !important;
+        border-bottom: 1px dotted #ddd;
+        padding-bottom: 4px
+    }
+
+    .klx-form-no-win .form-header-block {
+        text-align: left !important;
+        padding: 15px 0
+    }
+}
+
+.mo dal-header .close {
+    font-size: 150%;
+    font-weight: 700;
+    padding: 0 10px;
+    border: 5px solid red;
+    border-radius: 5px;
+    color: red
+}
+
+.mo dal-title {
+    text-align: center;
+    line-height: 1;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+.mo dal-title i {
+    float: left;
+    color: #099b9b
+}
+
+.datepicker {
+    cursor: pointer !important;
+    background-color: #fff !important
+}
+
+.picker__select--month,.picker__select--year {
+    height: 3em !important
+}
+
+.klx-form-win .form-header-block {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 120%;
+    color: #099b9b;
+    font-weight: 700
+}
+
+.klx-form-win .btn-doAction {
+    background-color: #099b9b;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 90%;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    border-radius: 8px
+}
+
+.list-upload-files .list-files-images {
+    display: inline-block;
+    float: left;
+    margin-right: 20px
+}
+
+.list-upload-files .list-files-images .upload-item {
+    display: inline-block;
+    margin: 0 10px 5px 0;
+    float: left;
+    height: 50px
+}
+
+.list-upload-files .list-files-images .upload-item img {
+    height: 50px;
+    max-width: 100px
+}
+
+.list-upload-files .list-files-images .upload-item.fileType {
+    font-size: 40px;
+    padding-top: 5px
+}
+
+.add-image-btn {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 7px
+}
+
+.add-image-btn input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    font-size: 200px !important;
+    direction: ltr;
+    cursor: pointer
+}
+
+.btn-doAction.loadWait {
+    background: transparent url(/images/_design/ajax-loader.gif) center center no-repeat !important;
+    text-shadow: none
+}
+
+.terms_text>div {
+    border-left: 4px solid #099b9b
+}
+
+.klx-form-block:hover .input-group-addon {
+    background-color: #099b9b;
+    color: #fff
+}
+
+.input-group-addon {
+    min-width: 40px
+}
