@@ -1,1 +1,1 @@
-# Mental-Math
+# Math-kids
